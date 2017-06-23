@@ -18,14 +18,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
-          "target": "~/amq/"
-        }
-      ]
     }
   },
   "environment": {
