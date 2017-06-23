@@ -15,6 +15,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
+          "target": "~/opt/amq/"
+        }
+      ]
     }
   },
   "environment": {
@@ -23,13 +31,5 @@
   "backend": {
     "imageid": "java8",
     "port": "8080"
-  },
-  "assets": {
-    "host01": [
-      {
-        "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
-        "target": "/opt/amq/"
-      }
-    ]
   }
 }
