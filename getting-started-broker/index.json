@@ -7,9 +7,7 @@
   "time": "10-15 minutes",
   "details": {
     "steps": [
-      { "title": "Creating an AMQ broker", "text": "step1.md" },
-      { "title": "Goes", "text": "step2.md" },
-      { "title": "Here", "text": "step3.md" }
+      { "title": "Creating an AMQ broker", "text": "02-creating-a-broker-instance.md" }
     ],
     "intro": {
       "text": "intro.md",
