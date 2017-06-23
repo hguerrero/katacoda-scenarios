@@ -1,1 +1,6 @@
-wget https://raw.githubusercontent.com/hguerrero/katacoda-scenarios/master/amq/getting-started-broker/assets/jboss-amq-7.0.0.redhat-1-bin.zip
+#!/bin/bash
+TMPFILE=`mktemp`
+PWD=`pwd`
+wget "https://raw.githubusercontent.com/hguerrero/katacoda-scenarios/master/amq/getting-started-broker/assets/jboss-amq-7.0.0.redhat-1-bin.zip" -O $TMPFILE
+unzip -d $PWD $TMPFILE
+rm $TMPFILE
