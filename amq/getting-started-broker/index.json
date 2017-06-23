@@ -7,7 +7,10 @@
   "time": "10-15 minutes",
   "details": {
     "steps": [
-      { "title": "Creating an AMQ broker", "text": "02-creating-a-broker-instance.md" }
+      {
+        "title": "Creating an AMQ broker",
+        "text": "02-creating-a-broker-instance.md"
+      }
     ],
     "intro": {
       "text": "intro.md",
@@ -20,13 +23,17 @@
       "host01": [
         {
           "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
-          "target": "~/opt/amq/"
+          "target": "/opt/amq/"
         }
       ]
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe",
+    "hideintro": false,
+    "hidefinish": false
   },
   "backend": {
     "imageid": "java8",
