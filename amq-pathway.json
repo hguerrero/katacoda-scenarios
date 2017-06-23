@@ -4,8 +4,12 @@
   "paid": false,
   "courses": [
     {
-      "course_id": "getting-started",
-      "title": "Getting Started with AMQ"
+      "course_id": "getting-started-broker",
+      "title": "Getting Started with AMQ Broker"
+    },
+    {
+      "course_id": "getting-started-interconnect",
+      "title": "Getting Started with AMQ Interconnect"
     }
   ]
 }
