@@ -29,6 +29,6 @@
   },
   "backend": {
     "imageid": "java8",
-    "port": "8080"
+    "port": "8161"
   }
 }
