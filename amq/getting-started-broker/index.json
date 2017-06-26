@@ -23,13 +23,13 @@
       "client": [
         {
           "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
-          "target": "~/tutorial"
+          "target": "/home/scrapbook/"
         }
       ],
       "host01": [
         {
           "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
-          "target": "~/"
+          "target": "/home/scrapbook/tutorial/"
         }
       ]
     }
