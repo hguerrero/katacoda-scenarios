@@ -6,7 +6,7 @@ Navigate into the folder issuing the cd command in the terminal
 
 The *artemis* script located in the *bin* folder is the starting point to manage an AMQ installation.
 
-*Optional* You can check the installation folder's layout with the ls command `ls -la`{{execute}}
+**Optional** You can check the installation folder's layout with the ls command `ls -la`{{execute}}
 
 #### Use the script to create a new broker instance
 

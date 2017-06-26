@@ -1,5 +1,3 @@
-#### Run the broker in interactive mode
-
 In the previous step you created a broker named *simplebroker* under the *instances* folder.
 
 Navigate to the broker folder
@@ -10,7 +8,7 @@ Run the **artemis** script under the *bin* folder to start the broker in interac
 
 `bin/artemis run`{{execute}}
 
-The broker will produce output similar to the following:
+The broker will produce output similar to the following (beware could take a few moments):
 
 ```
 ...
