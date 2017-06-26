@@ -1,21 +1,20 @@
 {
   "icon": "fa-openshift",
-  "title": "Getting Started with JBoss AMQ Broker",
-  "description": "Learning the basics of running the JBoss AMQ Broker",
+  "title": "Getting Started with JBoss AMQ Interconnect",
+  "description": "Learning the basics of running the JBoss AMQ Interconnect",
   "pathwayTitle": "Learn how JBoss AMQ provides a fast, lightweight, and secure messaging for Internet-scale applications",
   "difficulty": "beginner",
-  "time": "10-15 minutes",
+  "time": "15-20 minutes",
   "details": {
     "steps": [
       {
-        "title": "Creating an AMQ broker",
-        "text": "01-creating-a-broker-instance.md"
+        "title": "Starting the Interconnect Router",
+        "text": "01-starting-router.md"
       }
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "env-init.sh",
-      "code": "set-env.sh"
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
