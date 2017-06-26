@@ -12,12 +12,16 @@
         "text": "01-creating-a-broker-instance.md"
       },
       {
-        "title": "Run the broker in interactive mode",
+        "title": "Run the broker",
         "text": "02-running-a-broker-instance.md"
       },
       {
         "title": "Management Console",
         "text": "03-management-console.md"
+      },
+      {
+        "title": "Creating a Queue",
+        "text": "04-creating-a-queue.md"
       }
     ],
     "intro": {

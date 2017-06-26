@@ -4,7 +4,7 @@ Navigate to the broker folder
 
 `cd instances/simplebroker`{{execute}}
 
-Run the **artemis** script under the *bin* folder to start the broker in interactive mode
+Run the **artemis** script under the *bin* folder to start the broker in service mode
 
 `bin/artemis-service start`{{execute}}
 
@@ -18,18 +18,9 @@ Wait a moment and then check the **artemis.log** file under the *log* folder.
 
 `tail -100 log/artemis.log`{{execute}}
 
-It should look like this (wait a moment and try again if it still loading):
+It should look like this (wait a moment and try again if it's still loading):
 
 ```
-          __  __  ____    ____            _
-    /\   |  \/  |/ __ \  |  _ \          | |
-   /  \  | \  / | |  | | | |_) |_ __ ___ | | _____ _ __
-  / /\ \ | |\/| | |  | | |  _ <| '__/ _ \| |/ / _ \ '__|
- / ____ \| |  | | |__| | | |_) | | | (_) |   <  __/ |
-/_/    \_\_|  |_|\___\_\ |____/|_|  \___/|_|\_\___|_|
-
-Red Hat JBoss AMQ 7.0.0.redhat-1
-
 14:07:31,490 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
 14:07:31,540 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=./data/journal,bindingsDirectory=./data/bindings,largeMessagesDirectory=./data/large-messages,pagingDirectory=./data/paging)
 14:07:31,578 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
@@ -65,4 +56,4 @@ Take a quick glance at the log output and note a few things:
 * We see that the web console has been started at http://0.0.0.0:8161
 * We see that the Jolokia (a JMX over REST) service has been started at http://0.0.0.0:8161/jolokia
 
-You've got our broker unning! In the next step you will be able to check the broker console.
+You've got our broker running! In the next step you will be able to check the broker console.
