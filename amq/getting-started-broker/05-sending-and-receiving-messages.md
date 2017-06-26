@@ -8,7 +8,7 @@ To send messages go to the terminal tab and use the included script to send 10 m
 
 To check the messages were successfully send to the broker, check the queue in the broker web console.
 
-In the left tree navigate to 0.0.0.0 > addresses > haQueue > queues > anycast > haQueue
+In the left tree navigate to 0.0.0.0 > addresses > test.queue > queues > anycast > testQueue
 
 Click on Browse (refresh if necessary)
 

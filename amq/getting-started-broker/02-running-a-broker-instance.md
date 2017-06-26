@@ -11,7 +11,7 @@ Run the **artemis** script under the *bin* folder to start the broker in service
 The broker will produce output similar to the following:
 ```
 Starting artemis-service
-artemis-service is now running (18889)
+artemis-service is now running (71)
 ```
 
 Wait a moment and then check the **artemis.log** file under the *log* folder.

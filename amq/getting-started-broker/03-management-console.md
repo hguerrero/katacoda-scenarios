@@ -1,6 +1,8 @@
 #### Management console
 
-To access the management usan use the following URL https://[[HOST_SUBDOMAIN]]-8161-[[KATACODA_HOST]].environments.katacoda.com/hawtio/login
+To access the management usan use the following URL (takes a momento to load)
+
+https://[[HOST_SUBDOMAIN]]-8161-[[KATACODA_HOST]].environments.katacoda.com/hawtio/login
 
 Log in using the credentials:
 

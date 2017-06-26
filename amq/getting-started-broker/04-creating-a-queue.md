@@ -6,6 +6,6 @@ Go back to the terminal tab and issue the following command to create an *anycas
 
 If you go back to the console tab, you will see the create address on the left side of the console and under that address, the **testQueue**.
 
-![testQueue](images/01-testQueue.png)
+![testQueue](../../assets/01-testQueue.png)
 
 Now we are ready to send and receive messages on that queue in the next step.
