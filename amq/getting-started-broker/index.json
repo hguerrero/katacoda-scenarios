@@ -1,8 +1,8 @@
 {
   "icon": "fa-openshift",
   "title": "Getting Started with JBoss AMQ Broker",
-  "description": "Learning the basics of the AMQ Broker",
-  "pathwayTitle": "Red Hat JBoss AMQ",
+  "description": "Learning the basics of running the JBoss AMQ Broker",
+  "pathwayTitle": "Learn how JBoss AMQ provides a fast, lightweight, and secure messaging for Internet-scale applications",
   "difficulty": "beginner",
   "time": "10-15 minutes",
   "details": {
