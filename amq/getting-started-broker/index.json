@@ -23,6 +23,12 @@
       "client": [
         {
           "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
+          "target": "~/tutorial"
+        }
+      ],
+      "host01": [
+        {
+          "file": "jboss-amq-7.0.0.redhat-1-bin.zip",
           "target": "~/"
         }
       ]
