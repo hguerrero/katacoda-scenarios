@@ -4,5 +4,9 @@ To access the management usan use the following URL https://[[HOST_SUBDOMAIN]]-8
 
 Log in using the credentials:
 
-* Username: admin
-* Password: password
+* Username: **admin**
+* Password: **password**
+
+Click on the *Do not show welcome page on startup* to close the welcome page.
+
+In the next step we will create a queue to send messages.
