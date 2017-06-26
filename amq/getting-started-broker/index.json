@@ -22,6 +22,10 @@
       {
         "title": "Creating a Queue",
         "text": "04-creating-a-queue.md"
+      },
+      {
+        "title": "Sending and Receiving Messages",
+        "text": "05-sending-and-receiving-messages.md"
       }
     ],
     "intro": {
