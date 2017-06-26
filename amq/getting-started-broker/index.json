@@ -39,7 +39,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboard": "Dashboard",
+    "dashboard": "AMQ Web Console",
     "uilayout": "terminal-iframe",
     "hideintro": false,
     "hidefinish": false
