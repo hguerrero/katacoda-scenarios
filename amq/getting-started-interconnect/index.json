@@ -18,6 +18,9 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "route.json", "target": "~/"}]
     }
   },
   "environment": {
