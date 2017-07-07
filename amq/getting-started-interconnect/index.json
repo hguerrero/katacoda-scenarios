@@ -20,7 +20,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "jboss-amq-7.0.0.redhat-1-bin.zip", "target": "~/"}]
+      "client": [{"file": "dummy.json", "target": "~/"}]
     }
   },
   "environment": {
