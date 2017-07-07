@@ -20,7 +20,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "dummy.json", "target": "~/"}]
+      "client": [{"file": "route.json", "target": "~/"}]
     }
   },
   "environment": {
