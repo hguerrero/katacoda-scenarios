@@ -1,3 +1,4 @@
+ssh root@host01 "oc project openshift"
 ssh root@host01 "oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/amq/amq63-basic.json -n openshift"
 ssh root@host01 "oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/jboss-image-streams.json -n openshift"
 ssh root@host01 "docker pull registry.access.redhat.com/jboss-amq-6/amq63-openshift:latest"
