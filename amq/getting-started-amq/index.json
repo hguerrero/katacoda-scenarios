@@ -34,7 +34,7 @@
         "assets": {
             "host01": [
                 {
-                    "file": "fgstemplate.yml",
+                    "file": ".messaging.sh",
                     "target": "/root/"
                 }
             ]
