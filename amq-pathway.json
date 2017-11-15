@@ -10,6 +10,10 @@
     {
       "course_id": "getting-started-interconnect",
       "title": "Getting Started with AMQ Interconnect"
+    },
+    {
+      "course_id": "getting-started-amq",
+      "title": "Messaging Queues with Openshift"
     }
   ]
 }
