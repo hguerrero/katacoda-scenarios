@@ -1,3 +1,3 @@
-wget https://raw.githubusercontent.com/hguerrero/katacoda-scenarios/master/amq/getting-started-broker/assets/jboss-amq-7.0.0.redhat-1-bin.zip
-unzip jboss-amq-7.0.0.redhat-1-bin.zip
-rm jboss-amq-7.0.0.redhat-1-bin.zip
+wget https://raw.githubusercontent.com/hguerrero/katacoda-scenarios/master/amq/getting-started-broker/assets/amq-broker-7.1.0-bin.zip
+unzip amq-broker-7.1.0-bin.zip
+rm amq-broker-7.1.0-bin.zip

@@ -1,8 +1,8 @@
-The environment has already downloaded AMQ Broker and is located under the jboss-amq-7.0.0.redhat-1 directory.
+The environment has already downloaded AMQ Broker and is located under the amq-broker-7.1.0 directory.
 
 Navigate into the folder issuing the cd command in the terminal
 
-`cd jboss-amq-7.0.0.redhat-1`{{execute}}
+`cd amq-broker-7.1.0`{{execute}}
 
 The *artemis* script located in the *bin* folder is the starting point to manage an AMQ installation.
 
@@ -22,15 +22,15 @@ The command avoids a series of questions in order to configure the broker instan
 You should see the output:
 
 ```
-Creating ActiveMQ Artemis instance at: /home/scrapbook/tutorial/jboss-amq-7.0.0.redhat-1/instances/simplebroker    
+Creating ActiveMQ Artemis instance at: /home/scrapbook/tutorial/amq-broker-7.1.0/instances/simplebroker    
 
 You can now start the broker by executing:                                                                         
 
-   "/home/scrapbook/tutorial/jboss-amq-7.0.0.redhat-1/instances/simplebroker/bin/artemis" run                      
+   "/home/scrapbook/tutorial/amq-broker-7.1.0/instances/simplebroker/bin/artemis" run                      
 
 Or you can run the broker in the background using:                                                                 
 
-   "/home/scrapbook/tutorial/jboss-amq-7.0.0.redhat-1/instances/simplebroker/bin/artemis-service" start
+   "/home/scrapbook/tutorial/amq-broker-7.1.0/instances/simplebroker/bin/artemis-service" start
 ```
 
 You successfully created a new broker. In the next step you will learn how to manage it.
