@@ -1,5 +1,3 @@
-#### Management console
-
 To access the management usan use the following URL (please wait a few seconds to web page to load)
 
 https://[[HOST_SUBDOMAIN]]-8161-[[KATACODA_HOST]].environments.katacoda.com/console
