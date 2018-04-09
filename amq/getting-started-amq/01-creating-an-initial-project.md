@@ -2,7 +2,7 @@ To get started, first we need to login to OpenShift.
 
 To login to the OpenShift cluster use the following commmand in your **_Terminal_**:
 
-``oc login -u developer -p developer``{{execute}}
+``oc login -u developer -p developer [[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com --insecure-skip-tls-verify=true``{{execute}}
 
 This will log you in using the credentials:
 
