@@ -1,10 +1,14 @@
 In the previous step you created a broker named *simplebroker* under the *instances* folder.
 
-Navigate to the broker folder
+Navigate to the broker folder.
 
 `cd instances/simplebroker`{{execute}}
 
-Run the **artemis** script under the *bin* folder to start the broker in service mode
+Disable the strict-checking security for the web console.
+
+`sed -i 's|<strict-checking/>|<!--strict-checking/-->|g' etc/jolokia-access.xml`{{execute}}
+
+Run the **artemis** script under the *bin* folder to start the broker in service mode.
 
 `bin/artemis-service start`{{execute}}
 
