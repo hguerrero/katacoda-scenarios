@@ -28,7 +28,7 @@ You will see the 10 messages send by the producer script.
 
 Now let's try to consume messages from the **testQueue** queue (remember, our Anycast address was bound to testQueue). To receive the 10 messages in the queue issue the following command:
 
-`bin/artemis consumer --message-count 10 --url "tcp://localhost:61616" --destination queue://testQueue`
+`bin/artemis consumer --message-count 10 --url "tcp://localhost:61616" --destination queue://testQueue`{{execute}}
 
 You should get output similar to this:
 

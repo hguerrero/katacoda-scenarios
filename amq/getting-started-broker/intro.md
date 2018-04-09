@@ -4,8 +4,7 @@ AMQ Broker is a pure-Java multiprotocol message broker. It’s built on an effic
 * **High availability** - Shared store or shared-nothing state replication
 * **Advanced queueing** - Last value queues, message groups, topic hierarchies, and large message support
 * **Multiprotocol** - AMQP 1.0, MQTT, STOMP, OpenWire, and HornetQ Core
-* **Integration** - Full integration with Red Hat JBoss EAP
 
 AMQ Broker is based on the [Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/) project.
 
-In this tutorial you will learn how to create, configure and start a Red Hat JBoss AMQ message broker instance.
+In this tutorial you will learn how to create, configure and start a Red Hat AMQ message broker instance.

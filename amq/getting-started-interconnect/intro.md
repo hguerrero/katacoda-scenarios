@@ -7,4 +7,4 @@ AMQ Interconnect is a high-speed, low-latency AMQP 1.0 message router. You can d
 
 AMQ Interconnect is based on the [Apache Qpid Dispatch](https://qpid.apache.org/components/dispatch-router/) project.
 
-In this tutorial you will learn how to create, configure and start a Red Hat JBoss AMQ message interconnect router.
+In this tutorial you will learn how to create, configure and start a Red Hat AMQ message interconnect router.

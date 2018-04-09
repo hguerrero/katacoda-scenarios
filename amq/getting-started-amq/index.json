@@ -1,7 +1,7 @@
 {
     "icon": "fa-openshift",
-    "title": "Messaging Queues using Red Hat OpenShift and JBoss AMQ",
-    "description": "In this self paced tutorial you will learn how to create and use cloud native messaging queues using JBoss AMQ for container services on the OpenShift Container Platform from Red Hat.",
+    "title": "Messaging using OpenShift and Red Hat AMQ",
+    "description": "In this self paced tutorial you will learn how to create and use cloud native messaging queues using AMQ for container services on the OpenShift Container Platform from Red Hat.",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
     "time": "10-15 minutes",

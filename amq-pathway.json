@@ -1,6 +1,6 @@
 {
-  "title": "Red Hat JBoss AMQ",
-  "description": "Let's walkthrough everything you need to get started with JBoss AMQ",
+  "title": "Red Hat AMQ",
+  "description": "Let's walkthrough everything you need to get started with Red Hat AMQ",
   "paid": false,
   "courses": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "course_id": "getting-started-amq",
-      "title": "Messaging Queues with Openshift"
+      "title": "Messaging with Openshift"
     }
   ]
 }
