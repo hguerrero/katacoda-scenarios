@@ -1,2 +1,2 @@
-cat .messaging.sh >> .launch.sh
+#cat .messaging.sh >> .launch.sh
 ~/.launch.sh
