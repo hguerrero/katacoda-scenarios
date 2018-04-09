@@ -1,0 +1,51 @@
+With the project space now available, let's create the broker instance.
+
+To allow ingress traffic to the messaging destinations, configure the required secrets with the following command:
+
+``oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.7/secrets/amq-app-secret.json -n messaging``{{execute}
+
+Create a new app using the OpenShift command:
+
+``oc new-app amq63-persistent-ssl -p MQ_PROTOCOL=openwire,amqp -p MQ_QUEUES=stockdata -p MQ_TOPICS=stockevents -p MQ_USERNAME=amquser -p MQ_PASSWORD=amqpassword``{{execute}}
+
+This command will create a broker instance with the ``OpenWire`` and ``AMQP`` protocols enabled. At the same time, will create a queue named ``stockdata`` and a topic named ``stockevents``.
+
+You should see the output:
+
+```
+--> Deploying template "openshift/amq63-basic" to project messaging
+
+     Red Hat JBoss A-MQ 6.3 (Ephemeral, no SSL)
+     ---------
+     Application template for JBoss A-MQ brokers. These can be deployed as standalone or in a mesh. This template doesn't feature SSL support.
+
+     A new messaging service has been created in your project. It will handle the protocol(s) "openwire,amqp,stomp". Theusername/password for accessing the service is amqUser/amqPassword.
+
+     * With parameters:
+        * Application Name=broker
+        * A-MQ Protocols=openwire,amqp,stomp
+        * Queues=myqueue
+        * Topics=mytopic
+        * A-MQ Serializable Packages=
+        * A-MQ Username=amqUser
+        * A-MQ Password=amqPassword
+        * A-MQ Mesh Discovery Type=kube
+        * A-MQ Storage Limit=100 gb
+        * ImageStream Namespace=openshift
+
+--> Creating resources ...
+    service "broker-amq-amqp" created
+    service "broker-amq-mqtt" created
+    service "broker-amq-stomp" created
+    service "broker-amq-tcp" created
+    deploymentconfig "broker-amq" created
+--> Success
+    Application is not exposed. You can expose services to the outside world by executing one or more of the commands below:
+     'oc expose svc/broker-amq-amqp'
+     'oc expose svc/broker-amq-mqtt'
+     'oc expose svc/broker-amq-stomp'
+     'oc expose svc/broker-amq-tcp'
+    Run 'oc status' to view your app.
+```
+
+When the provisioning of the broker finishes, you will be set to start using the service.

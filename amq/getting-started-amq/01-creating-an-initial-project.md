@@ -14,12 +14,12 @@ You should see the output:
 ```
 Login successful.
 
-Now we need to create a Project space in OpenShift for our API.  In OpenShift we can create a new project by running
+You don't have any projects. You can try to create a new project, by running
 
     oc new-project <projectname>
 ```
 
-For out project lets create a project called ``messaging`` by running the command:
+For this scenario lets create a project called ``messaging`` by running the command:
 
 ``oc new-project messaging``{{execute}}
 
@@ -34,3 +34,5 @@ You can add applications to this project with the 'new-app' command. For example
 
 to build a new example application in Ruby.
 ```
+
+Next, create a new instance of the AMQ broker.
