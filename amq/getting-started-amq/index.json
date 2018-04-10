@@ -25,12 +25,14 @@
             "text": "99-finish.md"
         },
         "assets": {
-            "client": [
-
-            ],
+            "client": [],
             "host01": [
                 {
                     "file": "amq63-image-stream.json",
+                    "target": "/opt/"
+                },
+                {
+                    "file": "volumes.json",
                     "target": "/opt/"
                 }
             ]
@@ -40,7 +42,12 @@
     "environment": {
         "uilayout": "terminal-iframe",
         "showdashboard": true,
-        "dashboards": [{"name": "OpenShift Console", "port": 8443}],
+        "dashboards": [
+            {
+                "name": "OpenShift Console",
+                "port": 8443
+            }
+        ],
         "hideintro": false,
         "hidefinish": false
     },

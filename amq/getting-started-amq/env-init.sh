@@ -1,3 +1,6 @@
 ssh root@host01 "oc project openshift"
 ssh root@host01 "oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.5/amq/amq63-persistent-ssl.json -n openshift"
 ssh root@host01 "oc create -f /opt/amq63-image-stream.json -n openshift"
+ssh root@host01 "mkdir -p /data/pv-01"
+ssh root@host01 "chmod 0777 /data/pv-01"
+ssh root@host01 "oc create -f /opt/volume.json"
