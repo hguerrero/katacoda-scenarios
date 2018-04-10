@@ -1,4 +1,3 @@
-$ cat /opt/jboss-image-streams.json
 {
     "kind": "List",
     "apiVersion": "v1",
