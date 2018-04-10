@@ -25,25 +25,26 @@
             "text": "99-finish.md"
         },
         "assets": {
+            "client": [
+
+            ],
             "host01": [
                 {
-                    "file": ".messaging.sh",
-                    "target": "/root/"
+                    "file": "amq63-image-stream.json",
+                    "target": "/opt/"
                 }
             ]
         }
     },
-    "files": [
-    ],
+    "files": [],
     "environment": {
         "uilayout": "terminal-iframe",
         "showdashboard": true,
-        "dashboard": "Dashboard",
+        "dashboards": [{"name": "OpenShift Console", "port": 8443}],
         "hideintro": false,
         "hidefinish": false
     },
     "backend": {
-        "imageid": "openshift-middleware-3-7",
-        "port": 8443
+        "imageid": "openshift-middleware-3-7"
     }
 }
