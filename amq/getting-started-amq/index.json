@@ -32,7 +32,7 @@
                     "target": "/opt/"
                 },
                 {
-                    "file": "volumes.json",
+                    "file": "volume.json",
                     "target": "/opt/"
                 }
             ]
