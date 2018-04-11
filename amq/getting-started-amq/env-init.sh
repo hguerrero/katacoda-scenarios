@@ -1,6 +1,3 @@
 ssh root@host01 "oc project openshift"
 ssh root@host01 "oc create -f https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/amq-broker-71-dev/templates/amq-broker-71-ssl.yaml -n openshift"
-ssh root@host01 "oc create -f https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/amq-broker-71-dev/amq-7-image-streams.yaml -n openshift"
-ssh root@host01 "mkdir -p /data/pv-01"
-ssh root@host01 "chmod 0777 /data/pv-01"
-ssh root@host01 "oc create -f /opt/volume.json"
+ssh root@host01 "oc create -f /opt/amq-7-image-streams.yaml -n openshift"

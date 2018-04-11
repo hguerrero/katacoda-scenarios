@@ -28,7 +28,7 @@
             "client": [],
             "host01": [
                 {
-                    "file": "amq63-image-stream.json",
+                    "file": "route.json",
                     "target": "/opt/"
                 },
                 {

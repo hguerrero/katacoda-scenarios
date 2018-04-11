@@ -2,7 +2,7 @@ With the project space now available, let's create the broker instance.
 
 To allow ingress traffic to the messaging destinations, configure the required secrets with the following command:
 
-``oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.7/secrets/amq-app-secret.json -n messaging``{{execute}}
+``oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.5/secrets/amq-app-secret.json -n messaging``{{execute}}
 
 Add cluster capabilities to service account
 
@@ -10,7 +10,7 @@ Add cluster capabilities to service account
 
 Create a new app using the OpenShift command:
 
-``oc new-app amq63-persistent-ssl -p MQ_PROTOCOL=openwire,amqp -p MQ_QUEUES=stockdata -p MQ_TOPICS=stockevents -p MQ_USERNAME=amquser -p MQ_PASSWORD=amqpassword -p AMQ_TRUSTSTORE_PASSWORD=password -p AMQ_KEYSTORE_PASSWORD=password``{{execute}}
+``oc new-app amq-broker-71-ssl -p AMQ_PROTOCOL=amqp -p AMQ_QUEUES=stockdata -p AMQ_ADDRESSES=stockevents -p AMQ_USER=amquser -p AMQ_PASSWORD=amqpassword -p AMQ_TRUSTSTORE_PASSWORD=password -p AMQ_KEYSTORE_PASSWORD=password``{{execute}}
 
 This command will create a broker instance with the ``OpenWire`` and ``AMQP`` protocols enabled. At the same time, will create a queue named ``stockdata`` and a topic named ``stockevents``.
 
@@ -51,5 +51,9 @@ You should see the output:
      'oc expose svc/broker-amq-tcp'
     Run 'oc status' to view your app.
 ```
+
+Expose the service through a route to make it available from outside.
+
+``oc create -f /opt/route.json``{{execute}}
 
 When the provisioning of the broker finishes, you will be set to start using the service.
