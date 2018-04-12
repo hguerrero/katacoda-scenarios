@@ -10,7 +10,7 @@ Add cluster capabilities to service account
 
 Create a new app using the OpenShift command:
 
-``oc new-app amq-broker-71-ssl -p AMQ_PROTOCOL=amqp -p AMQ_QUEUES=stockdata -p AMQ_ADDRESSES=stockevents -p AMQ_USER=amquser -p AMQ_PASSWORD=amqpassword -p AMQ_TRUSTSTORE_PASSWORD=password -p AMQ_KEYSTORE_PASSWORD=password``{{execute}}
+``oc new-app amq-broker-71-basic -p AMQ_PROTOCOL=amqp -p AMQ_QUEUES=stockdata -p AMQ_ADDRESSES=stockevents -p AMQ_USER=amquser -p AMQ_PASSWORD=amqpassword``{{execute}}
 
 This command will create a broker instance with the ``OpenWire`` and ``AMQP`` protocols enabled. At the same time, will create a queue named ``stockdata`` and a topic named ``stockevents``.
 
