@@ -32,6 +32,10 @@
                     "target": "/opt/"
                 },
                 {
+                    "file": "amq-broker-71-basic.yaml",
+                    "target": "/opt/"
+                },
+                {
                     "file": "amq-7-image-streams.json",
                     "target": "/opt/"
                 }
