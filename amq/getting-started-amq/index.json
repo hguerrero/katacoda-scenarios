@@ -32,7 +32,7 @@
                     "target": "/opt/"
                 },
                 {
-                    "file": "volume.json",
+                    "file": "amq-7-image-streams.json",
                     "target": "/opt/"
                 }
             ]
