@@ -4,6 +4,8 @@ To login to the OpenShift cluster use the following commmand in your **_Terminal
 
 ``oc login -u developer -p developer [[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com --insecure-skip-tls-verify=true``{{execute}}
 
+> You can click on the above command (and all others in this scenario) to automatically copy it into the terminal and execute it.
+
 This will log you in using the credentials:
 
 * **Username:** ``developer``
@@ -35,4 +37,4 @@ You can add applications to this project with the 'new-app' command. For example
 to build a new example application in Ruby.
 ```
 
-Next, create a new instance of the AMQ broker.
+In the next, you will deploy a new instance of the AMQ broker.

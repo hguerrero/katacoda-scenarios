@@ -18,6 +18,10 @@
             {
                 "title": "Creating a Simple Messaging Application",
                 "text": "03-simple-client.md"
+            },
+            {
+                "title": "Access the application running on OpenShift",
+                "text": "04-running-application.md"
             }
         ],
         "intro": {

@@ -52,4 +52,4 @@ You should see the output:
     Run 'oc status' to view your app.
 ```
 
-When the provisioning of the broker finishes, you will be set to start using the service.
+When the provisioning of the broker finishes, you will be set to start using the service. In the next step you will deploy a simple messging application.
