@@ -4,7 +4,7 @@
     "title": "Messaging with OpenShift and Red Hat AMQ",
     "description": "In this self paced tutorial you will learn how to create and use cloud native messaging queues using AMQ on the OpenShift Container Platform from Red Hat.",
     "difficulty": "beginner",
-    "time": "10-15 minutes",
+    "time": "15-20 minutes",
     "details": {
         "steps": [
             {
@@ -12,8 +12,12 @@
                 "text": "01-creating-an-initial-project.md"
             },
             {
-                "title": "Creating a Broker Instance",
+                "title": "Deploying a Broker Instance",
                 "text": "02-create-broker-instance.md"
+            },
+            {
+                "title": "Creating a Simple Messaging Application",
+                "text": "03-simple-client.md"
             }
         ],
         "intro": {
@@ -28,10 +32,6 @@
             "client": [],
             "host01": [
                 {
-                    "file": "route.json",
-                    "target": "/opt/"
-                },
-                {
                     "file": "amq-broker-71-basic.yaml",
                     "target": "/opt/"
                 },
@@ -44,7 +44,9 @@
     },
     "files": [],
     "environment": {
-        "uilayout": "terminal-iframe",
+        "uilayout": "editor-terminal",
+        "uisettings": "javascript",
+        "uieditorpath": "/root/projects/amq-examples/amq-js-demo",
         "showdashboard": true,
         "dashboards": [
             {
@@ -52,6 +54,7 @@
                 "port": 8443
             }
         ],
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
         "hideintro": false,
         "hidefinish": false
     },

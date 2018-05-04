@@ -52,8 +52,4 @@ You should see the output:
     Run 'oc status' to view your app.
 ```
 
-Expose the service through a route to make it available from outside.
-
-``oc create -f /opt/route.json``{{execute}}
-
 When the provisioning of the broker finishes, you will be set to start using the service.
