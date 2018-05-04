@@ -1,4 +1,5 @@
-ssh root@host01 "cd /root/projects && git clone https://github.com/hguerrero/amq-examples"
+ssh root@host01 "cd /root/projects && git clone https://github.com/hguerrero/amq-examples.git tmp"
+ssh root@host01 "mv tmp amq-examples"
 ssh root@host01 "curl -k --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -"
 ssh root@host01 "yum -y install nodejs npm"
 ssh root@host01 "oc project openshift"
